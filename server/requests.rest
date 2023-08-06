@@ -1,0 +1,8 @@
+POST http://localhost:9002/signup
+Content-Type: application/json
+
+{
+    "name": "Manoj",
+    "email": "manasaadoj@icloud.com",
+    "password": "heroslayer"
+}

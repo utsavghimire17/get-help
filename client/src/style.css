@@ -1,0 +1,68 @@
+#main{
+  /* fallback for old browsers */
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    height: 1050px;
+    width: 800px;
+}
+
+button img{
+    width: 50px;
+    margin-left: 0px;
+    color: white;
+}
+.container-fluid button{
+    width: 5%;
+    
+}
+#settings img{
+    width: 40px;
+    filter: brightness(100);
+}
+#settings{
+    border:none;
+    background-color: rgb(189, 42, 42);
+}
+.navbar-brand{
+    color:white;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.image-container img:hover {
+    border-radius: 50px;
+    filter: brightness(80%) saturate(140%);
+    transition: ease-out;
+}
+.text-container{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left:70px;
+    color: white;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.form input {
+    border : red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
